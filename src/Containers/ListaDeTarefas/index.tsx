@@ -1,7 +1,32 @@
+import Tarefa from '../../components/Tarefas'
+
+import * as S from './styles'
+
 const ListaDeTarefas = () => (
-  <main>
+  <S.Container>
     <p>2 Tarefas marcadas como: &quot;categoria&ldquo; e &quot;termo&ldquo;</p>
-  </main>
+    <ul>
+      <li>
+        <Tarefa />
+      </li>
+
+      <li>
+        <Tarefa />
+      </li>
+
+      <li>
+        <Tarefa />
+      </li>
+
+      <li>
+        <Tarefa />
+      </li>
+
+      <li>
+        <Tarefa />
+      </li>
+    </ul>
+  </S.Container>
 )
 
 export default ListaDeTarefas
